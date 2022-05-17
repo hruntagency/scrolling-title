@@ -10,7 +10,7 @@
   <input id="text">
   <button id="run-button">Run</button>
   <script>
-  function n(n,t,c){var o=n+" "+(t||"-")+" ";setInterval(function(){o=o.substring(1)+o.charAt(0);document.title=o},c||300)}const t=document.getElementById("text");const c=document.getElementById("run-button");c.addEventListener("click",function(){if(t.value!==""){n(t.value)}});
+  function n(n,t,c){var o=n+"_"+(t||"-")+"_";setInterval(function(){o=o.substring(1)+o.charAt(0);document.title=o},c||300)}const t=document.getElementById("text");const c=document.getElementById("run-button");c.addEventListener("click",function(){if(t.value!==""){n(t.value)}});
   </script>
 </body>
 </html>
