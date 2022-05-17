@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scrolling Title</title>
+</head>
+<body>
+  <p>Demo. Type any text and click run. Have a look at page title.</p>
+  <input id="text">
+  <button id="run-button">Run</button>
+  <script>
+  function n(n,t,c){var o=n+" "+(t||"-")+" ";setInterval(function(){o=o.substring(1)+o.charAt(0);document.title=o},c||300)}const t=document.getElementById("text");const c=document.getElementById("run-button");c.addEventListener("click",function(){if(t.value!==""){n(t.value)}});
+  </script>
+</body>
+</html>
